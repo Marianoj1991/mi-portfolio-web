@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles.css"
+    />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <nav class="navbar">
+
+        <div class="navbar_image-content">
+          <div class="navbar_image-content-container">
+            <a href="/index.html">
+              <img
+                src="./public/portfolio-image-color-back.jpg"
+                alt="Mariano Jimenez profile picture"
+              />
+              
+            </a>
+          </div>
+          <div class="navbar_image-content-text">
+            <a
+              href="/index.html"
+            >
+              <p>Mariano Jimenez</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="navbar_list">
+          <ul>
+            <a id="anchor-inicio" href="#inicio" >
+              <li>Inicio</li>
+            </a>
+            <a id="anchor-tecnologias" href="#tecnologias" >
+              <li>Tecnologías</li>
+            </a>
+            <a id="anchor-proyectos" href="#proyectos" >
+              <li>Proyectos</li>
+            </a>
+            <a id="anchor-contactame" href="#contactame" >
+              <li>Contactame</li>
+            </a>
+          </ul>
+        </div>
+
+        <div class="label-contenedor">
+          <label class="label-checkbox" for="menu-toggle">
+            <img class="label-checkbox-image" src="public/iconos-tecnologias/menu-icon.png" alt="icono de menu">
+          </label>
+          <input
+            type="checkbox"
+            class="checkbox"
+            id="menu-toggle"
+          />
+          <div class='menu-contenedor'>
+            <ul>
+                <li>
+                  <a id="anchor-menu-desplegable" href="#inicio">Inicio</a>
+                </li>
+                <li>
+                  <a id="anchor-menu-desplegable" href="#tecnologias">Tecnologías</a>
+                </li>
+                <li>
+                  <a id="anchor-menu-desplegable" href="#proyectos">Proyectos</a>
+                </li>
+                <li>
+                  <a id="anchor-menu-desplegable" href="#contactame">Contactame</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+        
+
+      </nav>
+    </header>
+
+    <!-- CONTENIDO -->
+    <div class="content">
+
+      <!-- DESCRIPTION -->
+      <section class="description " id="inicio">
+        <div class='red-text-container'>
+          <p class='red-text'>Hola, mi nombre es Mariano Jimenez</p>
+        </div>
+        <div class="h1-title-container">
+          <h1 class="h1-title">Soy Front-end developer</h1>
+        </div>
+        <div class="own-description-container">
+          <p class="own-description">
+             Soy un desarrollador front-end con experiencia en la creación de aplicaciones web utilizando React. Además, tengo conocimientos avanzados en Node.js. Apasionado por la tecnología, siempre aprendiendo algo nuevo. Ahh, y también amo los animales.
+          </p>
+        </div>
+        <div class="description-img-container-container">
+          <div class="description-img-container">
+            <img src="public/portfolio-picture-gray-bg.png" alt="">
+          </div>
+        </div>
+      </section>
+
+      <!-- TECNOLOGIAS -->
+      <section class="tecnologias " id="tecnologias">
+
+        <h2>Tecnologías:</h2>
+
+        <div class="tecnologias-container">
+
+          <img  class="tecnologias-logo" src="./public/iconos-tecnologias/html.png" alt="HTML">
+          <img  class="tecnologias-logo" src="./public/iconos-tecnologias/css-3.png" alt="CSS">
+          <img  class="tecnologias-logo" src="./public/iconos-tecnologias/js.png" alt="Javascript">
+          <img  class="tecnologias-logo" src="./public/iconos-tecnologias/reactjs_logo.png" alt="ReactJS">
+          <img  class="tecnologias-logo" src="./public/iconos-tecnologias/typescript-logo.png" alt="TypeScript">
+          <img  class="tecnologias-logo" src="./public/iconos-tecnologias/nodejs.png" alt="NodeJS">
+          <img  class="tecnologias-logo" src="./public/iconos-tecnologias/sql.png" alt="SQL">
+          <img class="tecnologias-logo" src="./public/iconos-tecnologias/mongodb.png" alt="MongoDB">
+          <img  class="tecnologias-logo" src="./public/iconos-tecnologias/bootstrap-logo.png" alt="Boottrap">
+          <img  class="tecnologias-logo" src="./public/iconos-tecnologias/icons8-material-ui-240.png" alt="MaterialUI">
+          <img  class="tecnologias-logo" src="./public/iconos-tecnologias/postgresql.png" alt="PostgresSQL">
+          <img  class="tecnologias-logo" src="./public/iconos-tecnologias/git-logo.png" alt="GITLogo">
+          <img  class="tecnologias-logo" src="./public/iconos-tecnologias/github-logo.png" alt="GitHub-logo">
+          <img  class="tecnologias-logo" src="./public/iconos-tecnologias/trello-log.png" alt="Trello-logo">
+
+        </div>
+
+      </section>
+
+
+      <!-- PROJECTS SECTION -->
+      <section class="proyectos" id="proyectos">
+
+        <h2>Proyectos</h2>
+
+        <section class="tarjeta-grid">
+
+          <article class="tarjeta-contenedor">
+            <div class="tarjeta-imagen-contenedor">
+              <img class="tarjeta-imagen" src="public/proyectos-imgs/carrito-comprar-app.png" alt="imagen de app de carrito de compras">
+            </div>
+            <div class="tarjeta-texto-contenedor">
+              <h3>Shop-app</h3>
+              <p>Aplicación que muestra productos y permite agregarlos a un carrito</p>
+            </div>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/Marianoj1991/shop-cart-app" target="_blank" class="icono-github-contenedor">
+                <img class="icono-github" src="public/iconos-tecnologias/git-logo.png" alt="logo de git-hub">
+              </a>
+              <a href="https://shopping-cart-simulation.netlify.app/" target="_blank" class="icono-deploy-contenedor">
+                <img class="icono-deploy" src="public/iconos-tecnologias/deploy-icon.png" alt="logo que representa en deploy de la app">
+              </a>
+            </div>
+          </article>
+
+          <article class="tarjeta-contenedor">
+            <div class="tarjeta-imagen-contenedor">
+              <img class="tarjeta-imagen" src="public/proyectos-imgs/lista-tareas-app.png" alt="imagen de app de carrito de compras">
+            </div>
+            <div class="tarjeta-texto-contenedor">
+              <h3>Lista de Tareas</h3>
+              <p>Aplicación de lista de tareas con backend en Node.js y DDBB con PostgresSQL</p>
+            </div>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/Marianoj1991/task-app-client" target="_blank" class="icono-github-contenedor">
+                <img class="icono-github" src="public/iconos-tecnologias/git-logo.png" alt="logo de git-hub">
+              </a>
+              <a href="https://stellar-queijadas-8ed37c.netlify.app/" target="_blank" class="icono-deploy-contenedor">
+                <img class="icono-deploy" src="public/iconos-tecnologias/deploy-icon.png" alt="logo que representa en deploy de la app">
+              </a>
+              <a href="https://task-app-server-rvin.onrender.com/" target="_blank" class="icono-deploy-contenedor">
+                <img class="icono-deploy" src="public/iconos-tecnologias/server-icon.png" alt="logo que representa el server de la app">
+              </a>
+            </div>
+          </article>
+
+          <article class="tarjeta-contenedor">
+            <div class="tarjeta-imagen-contenedor">
+              <img class="tarjeta-imagen" src="public/proyectos-imgs/ranking-paises-app.png" alt="imagen de app de carrito de compras">
+            </div>
+            <div class="tarjeta-texto-contenedor">
+              <h3>Ranking de paises</h3>
+              <p>App sencilla de los paises del mundo (filtrado y ordenado)</p>
+            </div>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/Marianoj1991/rank-countries" target="_blank" class="icono-github-contenedor">
+                <img class="icono-github" src="public/iconos-tecnologias/git-logo.png" alt="logo de git-hub">
+              </a>
+              <a href="https://personal-proj-rank-countries.netlify.app/" target="_blank" class="icono-deploy-contenedor">
+                <img class="icono-deploy" src="public/iconos-tecnologias/deploy-icon.png" alt="logo que representa en deploy de la app">
+              </a>
+            </div>
+          </article>
+          
+        </section>
+
+      </section>
+
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contactame">
+      <h2>Contactame</h2>
+      <section class="contactame-container">
+          <div class="contactame-logo-container">
+            <a href="https://wa.me/5492613479077?text=Hola%20Mariano!" target="_blank" >
+              <img src="./public/iconos-tecnologias/whatsapp-logo.png" alt="Logo de Whatsapp">
+            </a>
+          </div>
+          <div class="contactame-logo-container">
+            <a href="https://www.linkedin.com/in/mariano-jimenez-sdif/" target="_blank">
+              <img src="./public/iconos-tecnologias/linkedin-logo.png" alt="Logo de Linkedin">
+            </a>
+          </div>
+          <div class="contactame-logo-container">
+            <a href="https://github.com/Marianoj1991?tab=repositories" target="_blank" >
+              <img src="./public/iconos-tecnologias/github-logo.png" alt="Logo de Github">
+            </a>
+          </div>
+      </section>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
