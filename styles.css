@@ -177,13 +177,12 @@ a {
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  padding-top: 4rem;
+  margin-top: 2rem;
 }
 
-
-
 .description {
-  padding: 5rem 0;
+  height: 80vh;
+  margin-top: 8rem;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -224,12 +223,11 @@ a {
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .description-img-container {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   overflow: hidden; 
   overflow: hidden;
@@ -243,11 +241,11 @@ a {
 /* TECNOLOGIAS SECCION */
 
 .tecnologias {
-  min-height: 70vh;
+  min-height: 80vh;
   display: flex;
   gap: 3rem;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   margin-bottom: 4rem;
 }
 
@@ -307,10 +305,12 @@ a {
 /* PROYECTOS SECCON */
 
 .proyectos {
+  height: 80vh;
+  margin-bottom: 3rem;
   display: flex;
   gap: 2rem;
   flex-direction: column;
-  justify-content: start;
+  justify-content: cebter;
 }
 
 .proyectos h2 {
@@ -345,13 +345,13 @@ a {
   /* color: #0e141b; */
   color: #d0d0d0;
   background-color: #3E5066;
-  padding: 0px 20px 0px;
-  width: 250px;
-  height: 350px;
+  padding: 20px 20px ;
+  width: 200px;
+  height: 250px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   border-radius: 20px;
   transition: transform 200ms ease;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
@@ -366,7 +366,7 @@ a {
 
 .tarjeta-imagen-contenedor {
   overflow: hidden;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px;
 }
 
 .tarjeta-imagen {
@@ -380,8 +380,14 @@ a {
 }
 
 .tarjeta-texto-contenedor h3 {
+  font-size: .8rem;
   margin-bottom: 10px;
   text-transform: uppercase;
+}
+
+.tarjeta-texto-contenedor p {
+  font-size: 10px;
+  margin-bottom: 10px;
 }
 
 .iconos-contenedor {
