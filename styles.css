@@ -177,7 +177,7 @@ a {
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  padding-top: 8rem;
+  padding-top: 4rem;
 }
 
 
@@ -206,16 +206,16 @@ a {
 }
 
 .h1-title {
-  font-size: 5rem;
+  font-size: 3rem;
   font-family: serif;
 }
 
 .own-description-container {
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .own-description {
-  line-height: 4rem;
+  line-height: 2rem;
 }
 
 .description-img-container-container {
